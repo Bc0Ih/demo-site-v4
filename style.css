@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 明日ここからmainvisual載せるまで進める */
+html{
+    font-size: 100%;
+}
+
+body{
+    color: #2b2a27;
+    font-family: "Helvetica Neue", "Arial", "Hirano Sans", "Meiryo", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #2b2a27;
+}
+
+#mainvisual img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position:center top;
+    margin-bottom: 80px;
+}
