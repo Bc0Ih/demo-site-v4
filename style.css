@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* 明日ここからmainvisual載せるまで進める */
+
 html{
     font-size: 100%;
 }
@@ -61,4 +61,20 @@ a{
     height: 500px;
     object-fit: cover;
     vertical-align: bottom;
+}
+
+#footer {
+    font-size: 0.75rem;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer .sns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#footer .sns li {
+    margin: 0 10px;
 }
