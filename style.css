@@ -78,3 +78,13 @@ a{
 #footer .sns li {
     margin: 0 10px;
 }
+
+@media screen and (max-width: 834px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex li {
+        width: 100%;
+    }
+}
